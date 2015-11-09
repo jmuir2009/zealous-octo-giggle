@@ -1,0 +1,25 @@
+<channel
+   name="Channel Manager"
+   guid="0421528C09C997BC6702161A697FC832"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="CC88639A909141391B516F59F3E5CFD9"
+      commit_id="dc2166c2933a014c8b65c4e4da48cf3b1e8dfffc"
+      commit_comment="Milestone 1"
+      mapper_url_path="chanman/"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>

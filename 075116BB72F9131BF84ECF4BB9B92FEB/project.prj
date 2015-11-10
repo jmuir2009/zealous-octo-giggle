@@ -1,0 +1,10 @@
+{
+   "Name": "help generate (From Translator)",
+   "LuaDependencies": [
+      "hjtw",
+      "hjtw_wiki"
+   ],
+   "OtherDependencies": [
+      
+   ]
+}

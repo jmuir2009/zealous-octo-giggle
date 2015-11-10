@@ -1,0 +1,10 @@
+{
+   "Name": "Get current time (From Translator)",
+   "LuaDependencies": [
+      "node",
+      "stringutil"
+   ],
+   "OtherDependencies": [
+      
+   ]
+}

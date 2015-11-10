@@ -1,0 +1,10 @@
+{
+   "Name": "Iguana First Steps (Filter)",
+   "LuaDependencies": [
+      
+   ],
+   "OtherDependencies": [
+      "demo.vmd",
+      "example/demo.vmd"
+   ]
+}

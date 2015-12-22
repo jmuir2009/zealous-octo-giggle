@@ -146,6 +146,12 @@
             </table_grammar>
          </table_grammar>
       </message>
+      <message name="Message1">
+         <description></description>
+         <table_grammar name="Message1">
+            <type>group</type>
+         </table_grammar>
+      </message>
    </global>
    <config name="default">
       <date_time name="DateTime">
@@ -11586,6 +11592,8 @@
       </match>
       <match msg="Lab">
       </match>
+      <match msg="Message1">
+      </match>
       <match msg="Catchall">
       </match>
       <table name="patient">
@@ -12534,6 +12542,34 @@
                <grammar_field_index>-1</grammar_field_index>
                <mapset_ref>Mapset</mapset_ref>
             </table_grammar>
+         </table_grammar>
+      </message>
+      <message name="Message1">
+         <ignore_unknown_segments>True</ignore_unknown_segments>
+         <ignore_segment_order>False</ignore_segment_order>
+         <in_equation><![CDATA[]]></in_equation>
+         <out_equation><![CDATA[]]></out_equation>
+         <message_grammar id="0">
+            <name>Message</name>
+            <is_optional>False</is_optional>
+            <is_repeating>False</is_repeating>
+            <ignore_segment_order>False</ignore_segment_order>
+            <max_repeats>0</max_repeats>
+            <type>group</type>
+            <message_grammar id="1">
+               <name>MSH</name>
+               <is_optional>False</is_optional>
+               <is_repeating>False</is_repeating>
+               <ignore_segment_order>False</ignore_segment_order>
+               <max_repeats>0</max_repeats>
+               <type>segment</type>
+               <segment_ref>1</segment_ref>
+            </message_grammar>
+         </message_grammar>
+         <table_grammar name="Message1">
+            <type>group</type>
+            <grammar_field_index>-1</grammar_field_index>
+            <grammar_root_ref>0</grammar_root_ref>
          </table_grammar>
       </message>
       <app_settings>

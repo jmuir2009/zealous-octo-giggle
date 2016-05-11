@@ -1,9 +1,0 @@
-{
-   "Name": "01-File to Socket (Filter)",
-   "LuaDependencies": [
-      
-   ],
-   "OtherDependencies": [
-      "example/demo.vmd"
-   ]
-}

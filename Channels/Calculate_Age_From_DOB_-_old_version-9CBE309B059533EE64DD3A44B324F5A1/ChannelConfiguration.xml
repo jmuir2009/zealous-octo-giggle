@@ -1,0 +1,24 @@
+<channel
+   name="Calculate Age From DOB - old version"
+   guid="9CBE309B059533EE64DD3A44B324F5A1"
+   description="This channel has a module for calculating the age of a person from their date of birth (DOB).&#xD;&#xA;&#xD;&#xA;http://help.interfaceware.com/v6/age-example-channel"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Calculate_Age_From_DOB_-_old_version-To-ukHibszvUmEMQY"
+      commit_id="b096bb0b3671164179dd80a195f612ba4eae9eb6"
+      commit_comment="Import Translators: test">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="A58DA9D5137D9E56F9267DE5E810DF15"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      ack_vmd_path="/Applications/iNTERFACEWARE-Iguana.app/Contents/iNTERFACEWARE-Iguana/autoack.vmd"
+      port="7501"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      ack_style="fast"/>
+</channel>
